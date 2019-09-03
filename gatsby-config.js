@@ -29,9 +29,9 @@ module.exports = themeOptions => {
               resolve: `gatsby-remark-images`,
               options: {
                 markdownCaptions: true,
-                maxWidth: 1024,
-                wrapperStyle: fluidResult =>
-                  `flex:${_.round(fluidResult.aspectRatio, 2)}; width:100%`
+                maxWidth: 1024
+//                 wrapperStyle: fluidResult =>
+//                   `flex:${_.round(fluidResult.aspectRatio, 2)}; width:100%`
               }
             },
             { resolve: `gatsby-remark-copy-linked-files` },
